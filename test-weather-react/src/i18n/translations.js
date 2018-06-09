@@ -36,6 +36,7 @@ const translations = {
   en: {
     app: {
       CITY: 'Paris',
+      DATE_FORMAT: 'llll',
       LANG: 'en',
       TITLE: 'Paris Weather',
     },
