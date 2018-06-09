@@ -1,0 +1,53 @@
+#root {
+  height: 100%; }
+
+.container {
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(./images/weather.jpg) no-repeat;
+  background-size: cover; }
+  .container .content {
+    margin: 20px;
+    color: white; }
+  .container .content-label {
+    margin: 20px;
+    color: #000; }
+
+.navbar-nav {
+  margin: 0; }
+  .navbar-nav.menu-rs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .navbar-nav.menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+.navbar .menu .menu-item {
+  float: left;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  padding: 12px 10px 0;
+  height: 46px; }
+  .navbar .menu .menu-item .menu-item-label {
+    color: #000; }
+  .navbar .menu .menu-item .selected {
+    font-weight: bold; }

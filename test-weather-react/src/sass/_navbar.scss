@@ -1,0 +1,33 @@
+.navbar-nav {
+  margin: 0;
+  &.menu-rs {
+    @include flexbox;
+    @include flex-direction(row);
+  }
+  &.menu {
+    @include flexbox;
+    @include flex-direction(row);
+  }
+}
+
+.navbar {
+
+  .menu .menu-item {
+    float: left;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    padding: 12px 10px 0;
+    height: 46px;
+
+    .menu-item-label {
+      color: #000;
+      //text-decoration: none;
+    }
+
+    .selected {
+      font-weight: bold;
+    }
+  }
+}
