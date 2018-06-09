@@ -35,8 +35,9 @@ const translations = {
   },
   en: {
     app: {
-      TITLE: 'Paris Weather',
+      CITY: 'Paris',
       LANG: 'en',
+      TITLE: 'Paris Weather',
     },
     header: {
       nav: {
